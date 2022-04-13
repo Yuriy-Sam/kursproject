@@ -1,4 +1,4 @@
-"use sctrict"
+"use sctrict";
 // let number = 5;
 // const leftBorderWidth = 1;
 
