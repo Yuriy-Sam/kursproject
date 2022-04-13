@@ -180,3 +180,6 @@ console.log(e.target);//выводим в консоль ссылку
 }
 
 
+document.addEventListener('DOMContentLoaded', () => {//частично загружает код на страницу что бы не нагружать систему
+    //сюда весь код
+});
