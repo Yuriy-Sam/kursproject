@@ -183,3 +183,17 @@ console.log(e.target);//выводим в консоль ссылку
 document.addEventListener('DOMContentLoaded', () => {//частично загружает код на страницу что бы не нагружать систему
     //сюда весь код
 });
+
+// ОБЕКТЫ
+console.log(Object.assign(obj1, obj2)); // добавляет данные из обекта obj2 в obj1
+const clone = Object.assign({}, obj2); // создает копию obj2 в новый обект clone
+
+const mas = ['a', 'b', 'c'];//масив mas с елементами a, b, c
+      mas1 = [...mas, 'd', 'e'];//масив mas1 копирует в себя все елементи масива mas с елементами a, b, c и добавляет цвои елементи
+
+function fun1 (t, y, u) {
+    console.log(t);
+    console.log(y);
+    console.log(u);
+}
+fun1(...mas);// функција собирает все елементи масива mas и вставлјает в функцију
